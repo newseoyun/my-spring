@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!-- App에서 쓸 bean들 -->
+	<bean id="iridao" class="com.dao.DefaultDAO">
+		<property name="name" value="DAO를 거쳐 application-context.xml에서 정한 이름"/>
+		<property name="contents" value="DAO를 거쳐 application-context.xml에서 정한 내용"/>
+	</bean>
+
+
+
+</beans>
